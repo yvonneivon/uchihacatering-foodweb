@@ -260,4 +260,103 @@ nav ul {
   color: #736161;
   margin: 2rem;
 }
+
+.how-uchiha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #F1F0EA;
+  min-height: 90vh;
+  width: 95%;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.how-uchiha .img2 {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 40rem;
+          flex: 2 1 40rem;
+}
+
+.how-uchiha .food2 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.how-it-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.how-it-text h1 {
+  font-size: 6.4rem;
+  font-family: "Crimson Text", serif;
+}
+
+.how-it-text h3 {
+  font-size: 2.4rem;
+  color: #736161;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.how-it-text span {
+  color: black;
+  font-size: 1.8rem;
+  display: block;
+  font-family: "Crimson Text", serif;
+}
+
+.how-it-text ul {
+  margin: 1rem;
+  padding: 1rem 2rem;
+}
+
+.how-it-text li {
+  text-align: center;
+  margin-bottom: 1rem;
+  display: block;
+  padding: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
