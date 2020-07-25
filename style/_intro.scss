@@ -1,0 +1,77 @@
+.main-head {
+    width: 95%;
+    margin: auto;
+}
+
+nav {
+    @include flex(space-around, center, row);
+    font-size: $header4;
+    min-height: 10vh;
+    flex-wrap: wrap;
+
+
+    #logo {
+        @include flex(flex-start, center, row);
+        flex: 1 1 10rem;
+        font-family: $font-josefin;
+        padding: 1.5rem;
+
+        h1 {
+            margin: 2rem 0rem;
+        }
+    }
+
+    ul {
+        @include flex(space-around, center, row);
+        font-size: $header4;
+        font-family: $font-didact;
+        flex: 1 1 40rem;
+    }
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 95%;
+    margin: auto;
+}
+
+.img1 {
+    @include flex(center, center, column);
+
+    .food1 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.text1 {
+    @include flex(center, center, column);
+    flex: 1 1 40rem;
+    text-align: center;
+
+    h1 {
+        font-size: $header1;
+        font-family: $font-crimson;
+    }
+
+    h4 {
+        font-size: $text;
+        font-family: $font-didact;
+        color: $brown-text;
+        padding-bottom: 2rem;
+    }
+
+    button {
+        background: black;
+        box-shadow: none;
+        text-decoration: none;
+        border: none;
+        padding: 2rem 4rem;
+        font-size: $text;
+        font-family: $font-didact;
+        margin: 2rem;
+    }
+}

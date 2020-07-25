@@ -6,6 +6,13 @@ $text: 1.8rem;
 $background-color: #F1F0EA;
 $brown-text: #736161;
 
+$font-didact: 'Didact Gothic',
+sans-serif;
+$font-crimson: 'Crimson Text',
+serif;
+$font-josefin: 'Josefin Sans',
+sans-serif;
+
 @mixin flex($justify, $align, $direction) {
     display: flex;
     justify-content: $justify;
@@ -14,3 +21,4 @@ $brown-text: #736161;
 }
 
 @import "global";
+@import "intro";
