@@ -174,4 +174,90 @@ nav ul {
   font-family: "Didact Gothic", sans-serif;
   margin: 2rem;
 }
+
+.why-uchiha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 90vh;
+  width: 95%;
+  margin: auto;
+}
+
+.power-of-food {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background: #F1F0EA;
+}
+
+.power-of-food h1 {
+  font-size: 6.4rem;
+  font-family: "Crimson Text", serif;
+}
+
+.power-of-food h4 {
+  font-size: 1.8rem;
+  font-family: "Didact Gothic", sans-serif;
+  margin: 1rem;
+}
+
+.power-of-food ul {
+  margin: 1rem;
+  padding: 1rem 2rem;
+}
+
+.power-of-food li {
+  text-align: center;
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.power-of-food span {
+  color: black;
+  font-size: 1.2rem;
+  display: block;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.hokage7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.hokage7 h1 {
+  font-size: 3.6rem;
+  font-family: "Crimson Text", serif;
+  color: #736161;
+  margin: 2rem;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+.why-uchiha {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    width: 95%;
+    margin: auto;
+}
+
+.power-of-food {
+    @include flex(center, center, column);
+    text-align: center;
+    background: $background-color;
+
+    h1 {
+        font-size: $header1;
+        font-family: $font-crimson;
+    }
+
+    h4 {
+        font-size: $text;
+        font-family: $font-didact;
+        margin: 1rem;
+    }
+
+    ul {
+        margin: 1rem;
+        padding: 1rem 2rem;
+    }
+
+    li {
+        text-align: center;
+        margin-bottom: 1rem;
+        display: inline-block;
+        padding: 1rem;
+    }
+
+    span {
+        color: black;
+        font-size: 1.2rem;
+        display: block;
+        text-transform: uppercase;
+        font-family: $font-josefin;
+
+    }
+
+}
+
+.hokage7 {
+    @include flex(center, center, column);
+    text-align: center;
+
+    h1 {
+        font-size: $header3;
+        font-family: $font-crimson;
+        color: $brown-text;
+        margin: 2rem;
+    }
+}
