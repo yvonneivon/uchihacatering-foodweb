@@ -67,6 +67,7 @@ nav #logo {
       -ms-flex: 1 1 10rem;
           flex: 1 1 10rem;
   font-family: "Josefin Sans", sans-serif;
+  font-size: 3.6rem;
   padding: 1.5rem;
 }
 
@@ -358,5 +359,94 @@ nav ul {
   margin-bottom: 1rem;
   display: block;
   padding: 1rem;
+}
+
+.client-body {
+  width: 95%;
+  min-height: 90vh;
+  margin: auto;
+}
+
+h1 {
+  font-size: 6.4rem;
+  text-align: center;
+  font-family: "Crimson Text", serif;
+}
+
+.client-story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.story1 {
+  padding: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-size: 1.8rem;
+  font-family: "Crimson Text", serif;
+  color: #736161;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.story1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1rem;
+}
+
+.story2 {
+  padding: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-size: 1.8rem;
+  font-family: "Crimson Text", serif;
+  color: #736161;
+  text-align: center;
+}
+
+.story2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1rem;
+}
+
+.story3 {
+  padding: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-size: 1.8rem;
+  font-family: "Crimson Text", serif;
+  color: #736161;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.story3 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
