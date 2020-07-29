@@ -23,6 +23,7 @@ a {
 button {
   font-family: 'Didact Gothic', sans-serif;
   color: white;
+  cursor: pointer;
 }
 
 .main-head {
@@ -448,5 +449,95 @@ h1 {
   -o-object-fit: cover;
      object-fit: cover;
   padding: 2rem;
+}
+
+.stay-connected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #F1F0EA;
+  min-height: 90vh;
+  width: 95%;
+  margin: auto;
+}
+
+.stay-connected h1 {
+  font-size: 6.4rem;
+}
+
+.stay-connected h2 {
+  font-family: "Didact Gothic", sans-serif;
+  color: #736161;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.stay-connected button {
+  background: black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-decoration: none;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  font-family: "Didact Gothic", sans-serif;
+  margin: 1rem;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  padding: 2rem;
+  border: none;
+}
+
+form input {
+  min-width: 25%;
+  min-height: 7vh;
+  font-family: "Crimson Text", serif;
+  font-size: 1.8rem;
+  border: 0rem solid black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+form input focus {
+  outline: none;
+}
+
+form button {
+  background: black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-decoration: none;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  font-family: "Didact Gothic", sans-serif;
+  margin: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
