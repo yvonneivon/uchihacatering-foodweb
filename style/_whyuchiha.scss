@@ -1,9 +1,9 @@
 .why-uchiha {
     display: flex;
     flex-direction: column;
-
     width: 95%;
     margin: auto;
+    min-height: 50vh;
 }
 
 .power-of-food {
@@ -41,19 +41,18 @@
         display: block;
         text-transform: uppercase;
         font-family: $font-josefin;
-
     }
-
 }
 
 .hokage7 {
-    @include flex(center, center, column);
+    @include flex(center, center, row);
     text-align: center;
+    min-height: 50vh;
 
     h1 {
         font-size: $header3;
         font-family: $font-crimson;
         color: $brown-text;
-        margin: 2rem;
+
     }
 }

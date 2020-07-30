@@ -109,6 +109,7 @@ nav ul {
           flex-direction: row;
   width: 95%;
   margin: auto;
+  min-height: 95vh;
 }
 
 .img1 {
@@ -192,6 +193,7 @@ nav ul {
           flex-direction: column;
   width: 95%;
   margin: auto;
+  min-height: 50vh;
 }
 
 .power-of-food {
@@ -254,18 +256,18 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   text-align: center;
+  min-height: 50vh;
 }
 
 .hokage7 h1 {
   font-size: 3.6rem;
   font-family: "Crimson Text", serif;
   color: #736161;
-  margin: 2rem;
 }
 
 .how-uchiha {
@@ -287,6 +289,7 @@ nav ul {
   margin: auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  min-height: 100vh;
 }
 
 .how-uchiha .img2 {
@@ -370,6 +373,7 @@ nav ul {
 .client-body {
   width: 95%;
   margin: auto;
+  min-height: 100vh;
 }
 
 h1 {
@@ -477,6 +481,7 @@ h1 {
   width: 95%;
   margin: auto;
   padding: 2rem;
+  min-height: 95vh;
 }
 
 .stay-connected h1 {
