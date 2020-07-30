@@ -3,9 +3,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     background: $background-color;
-    min-height: 90vh;
     width: 95%;
     margin: auto;
+    padding: 2rem;
 
     h1 {
         font-size: $header1;
@@ -39,7 +39,7 @@ form {
 
     input {
         min-width: 25%;
-        min-height: 7vh;
+        min-height: 4.5rem;
         font-family: $font-crimson;
         font-size: $text;
         border: 0rem solid black;

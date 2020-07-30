@@ -45,7 +45,7 @@ nav {
       -ms-flex-direction: row;
           flex-direction: row;
   font-size: 2.4rem;
-  min-height: 10vh;
+  min-height: 5vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -69,7 +69,6 @@ nav #logo {
           flex: 1 1 10rem;
   font-family: "Josefin Sans", sans-serif;
   font-size: 3.6rem;
-  padding: 1.5rem;
 }
 
 nav #logo h1 {
@@ -92,8 +91,10 @@ nav ul {
   font-size: 2.4rem;
   font-family: "Didact Gothic", sans-serif;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+      -ms-flex: 1 1 60rem;
+          flex: 1 1 60rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .intro {
@@ -124,6 +125,9 @@ nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
 }
 
 .img1 .food1 {
@@ -148,9 +152,10 @@ nav ul {
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
   text-align: center;
+  padding: 1rem;
 }
 
 .text1 h1 {
@@ -185,7 +190,6 @@ nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 90vh;
   width: 95%;
   margin: auto;
 }
@@ -206,6 +210,7 @@ nav ul {
           flex-direction: column;
   text-align: center;
   background: #F1F0EA;
+  padding: 1rem;
 }
 
 .power-of-food h1 {
@@ -278,7 +283,6 @@ nav ul {
       -ms-flex-direction: row;
           flex-direction: row;
   background: #F1F0EA;
-  min-height: 90vh;
   width: 95%;
   margin: auto;
   -ms-flex-wrap: wrap;
@@ -330,6 +334,7 @@ nav ul {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
+  padding: 1rem;
 }
 
 .how-it-text h1 {
@@ -364,7 +369,6 @@ nav ul {
 
 .client-body {
   width: 95%;
-  min-height: 90vh;
   margin: auto;
 }
 
@@ -372,6 +376,7 @@ h1 {
   font-size: 6.4rem;
   text-align: center;
   font-family: "Crimson Text", serif;
+  padding: 1rem;
 }
 
 .client-story {
@@ -469,9 +474,9 @@ h1 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background: #F1F0EA;
-  min-height: 90vh;
   width: 95%;
   margin: auto;
+  padding: 2rem;
 }
 
 .stay-connected h1 {
@@ -517,7 +522,7 @@ form {
 
 form input {
   min-width: 25%;
-  min-height: 7vh;
+  min-height: 4.5rem;
   font-family: "Crimson Text", serif;
   font-size: 1.8rem;
   border: 0rem solid black;
@@ -542,13 +547,13 @@ form button {
 }
 
 footer {
-  min-height: 10vh;
+  min-height: 5vh;
   width: 95%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem 5%;
+  padding: 1rem 3%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -577,11 +582,87 @@ footer ul {
   cursor: pointer;
 }
 
+footer img {
+  width: 70%;
+}
+
 footer h4 {
   -webkit-box-flex: 3;
       -ms-flex: 3 1 40rem;
           flex: 3 1 40rem;
   font-size: 1.8rem;
   font-family: "Josefin Sans", sans-serif;
+}
+
+@media screen and (max-width: 1022px) {
+  html {
+    font-size: 55%;
+  }
+  nav .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+    margin-top: 2rem;
+  }
+  nav ul {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 60rem;
+            flex: 1 1 60rem;
+    margin: 2rem 1rem;
+    text-align: center;
+  }
+  .client-story .story3 {
+    display: none;
+  }
+  .client-story .story3-img {
+    display: none;
+  }
+  footer {
+    text-align: center;
+  }
+  h4 {
+    padding: 1rem 0rem;
+  }
+}
+
+@media screen and (max-width: 698px) {
+  html {
+    font-size: 40%;
+  }
+  .img1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 60rem;
+            flex: 1 1 60rem;
+  }
+  .food2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 60rem;
+            flex: 1 1 60rem;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h4 {
+    padding: 1rem 0rem;
+  }
+  .client-story .story3 {
+    display: none;
+  }
+  .client-story .story3-img {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

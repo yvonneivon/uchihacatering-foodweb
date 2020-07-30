@@ -1,9 +1,9 @@
 footer {
-    min-height: 10vh;
+    min-height: 5vh;
     width: 95%;
     margin: auto;
     display: flex;
-    padding: 2rem 5%;
+    padding: 1rem 3%;
     align-items: center;
     flex-wrap: wrap;
 
@@ -12,6 +12,10 @@ footer {
         flex: 1 1 40rem;
         @include flex(space-between, center, center);
         cursor: pointer;
+    }
+
+    img {
+        width: 70%;
     }
 
     h4 {

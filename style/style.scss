@@ -27,3 +27,77 @@ sans-serif;
 @import "clientstory";
 @import "stayconnected";
 @import "footer";
+
+@media screen and (max-width: 1022px) {
+    html {
+        font-size: 55%;
+
+    }
+
+    nav {
+        .logo {
+            @include flex(center, center, column);
+            flex: 1 1 40rem;
+            margin-top: 2rem;
+        }
+
+        ul {
+            flex: 1 1 60rem;
+            margin: 2rem 1rem;
+            text-align: center;
+        }
+    }
+
+    .client-story {
+        .story3 {
+            display: none;
+        }
+
+        .story3-img {
+            display: none;
+        }
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    h4 {
+        padding: 1rem 0rem;
+    }
+
+}
+
+@media screen and (max-width: 698px) {
+    html {
+        font-size: 40%;
+    }
+
+    .img1 {
+        flex: 1 1 60rem;
+    }
+
+    .food2 {
+        flex: 1 1 60rem;
+    }
+
+    footer {
+        text-align: center;
+
+        h4 {
+            padding: 1rem 0rem;
+        }
+    }
+
+    .client-story {
+        .story3 {
+            display: none;
+        }
+
+        .story3-img {
+            display: none;
+        }
+    }
+
+
+}

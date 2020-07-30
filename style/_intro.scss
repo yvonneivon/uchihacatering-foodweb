@@ -6,16 +6,15 @@
 nav {
     @include flex(space-around, center, row);
     font-size: $header4;
-    min-height: 10vh;
+    min-height: 5vh;
     flex-wrap: wrap;
-
 
     #logo {
         @include flex(flex-start, center, row);
         flex: 1 1 10rem;
         font-family: $font-josefin;
         font-size: $header3;
-        padding: 1.5rem;
+
 
         h1 {
             margin: 2rem 0rem;
@@ -26,7 +25,9 @@ nav {
         @include flex(space-around, center, row);
         font-size: $header4;
         font-family: $font-didact;
-        flex: 1 1 40rem;
+        flex: 1 1 60rem;
+        padding: 1rem;
+        text-align: center;
     }
 }
 
@@ -40,6 +41,8 @@ nav {
 
 .img1 {
     @include flex(center, center, column);
+    flex: 1 1 20rem;
+
 
     .food1 {
         width: 100%;
@@ -50,8 +53,9 @@ nav {
 
 .text1 {
     @include flex(center, center, column);
-    flex: 1 1 40rem;
+    flex: 1 1 20rem;
     text-align: center;
+    padding: 1rem;
 
     h1 {
         font-size: $header1;
